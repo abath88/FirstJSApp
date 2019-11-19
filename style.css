@@ -1,0 +1,17 @@
+.board {
+    display: flex;
+    flex-direction: column;
+}
+
+.board > .row {
+    display: flex;
+    flex-direction: row;
+}
+
+.board > .row > .cell {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 10px;
+    font-size: 72px;
+}
